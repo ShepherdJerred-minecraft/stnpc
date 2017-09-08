@@ -1,0 +1,6 @@
+# Defaults when applied
+default-sound: ""
+default-command: ""
+
+# Cooldown between sounds playing
+sound-cooldown: 2

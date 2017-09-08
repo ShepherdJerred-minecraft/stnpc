@@ -1,0 +1,31 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Jerred Shepherd (RiotShielder)
+website: http://shepherdjerred.com/
+
+depend: [Citizens]
+
+main: com.shepherdjerred.stnpc.Main
+
+commands:
+    stn:
+        description: Main plugin command
+        aliases: [stnpc]
+        
+permissions:
+    stNPC.*:
+        description: Gives access to all plugin functions
+        children:
+            stNPC.reload: true
+            stNPC.sounds: true
+            stNPC.commands: true
+    stNPC.setsound:
+        description: Gives access to /stn sound
+        default: op
+    stNPC.setcommand:
+        description: Gives access to /stn command
+        default: op
+    stNPC.reload:
+        description: Gives access to /stn reload
+        default: op

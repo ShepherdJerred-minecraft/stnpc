@@ -1,0 +1,15 @@
+# The prefix used for plugin messages
+prefix:
+    server: "&8[&3stNPC&8]: &7"
+    
+# Various messages used by the plugin
+messages:
+    no-perms: "&cYou don't have permission to do that!"
+    no-console: "&cYou must be a player to do that!"
+    no-args: "&cNo arguments given! Valid arguments are: %args%"
+    invalid-arg: "&c%arg% is not a valid argument! Valid arguments are: %args%"
+    no-npc: "&cYou must have an NPC selected to use that!"
+    invalid-npc: "&cThat NPC doesn't exist!"
+    no-trait: "&c%npc% doesn't have the stnpc trait!"
+    sound-success: "&a%npc% has been assigned to speak %sound%"
+    command-success: "&a%npc% has been assigned to run %command%"
